@@ -1,0 +1,47 @@
+---
+title: "SEMANA_08_SISTEMATIZACION"
+author: "JESSICA_PANTA_PANTA"
+format: html
+editor: visual
+---
+
+## CARPETA SEMANA 08:
+
+## COMO INSTALAR UN PAQUETE EN R STUDIO
+
+REALIZA TU GRÁFICO ESTADÍSTICO
+
+```{r}
+#INSTALAMOS PAQUETES
+install.packages("readr")
+library(readr)
+```
+
+```{r}
+install.packages("fdth")
+library(fdth)
+```
+
+```{r}
+
+```
+
+```{r}
+data<-data.frame(s02_treat_artritis)
+data
+```
+
+```{r}
+apertura<-data$Edad
+head(apertura)
+```
+
+```{r}
+tabla<-fdt(apertura)
+tabla
+```
+
+```{r}
+hist(apertura)
+hist(apertura,col = "purple")
+```
