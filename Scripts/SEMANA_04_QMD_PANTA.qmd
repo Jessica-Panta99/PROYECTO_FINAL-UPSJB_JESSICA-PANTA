@@ -1,0 +1,30 @@
+---
+title: "SEMANA_04_SISTEMATIZACION"
+author: "JESSICA_PANTA _PANTA"
+format: html
+editor: visual
+---
+
+## CARPETA SEMANA 04
+
+## Como descargar un archivo en formato CSV del repositorio GITHUB
+
+```{r}
+#Me ubico en la guía práctica
+```
+
+```{r}
+#Me dirijo a la dirección del GITHUB
+```
+
+```{r}
+#Me dirijo a REPOSITORIO y selecciono DATA
+```
+
+```{r}
+#Descargo la data CSV
+```
+
+```{r}
+#Verifíco en mis archivos descargados
+```
