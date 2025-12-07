@@ -1,0 +1,20 @@
+---
+title: "SEMANA_06_SISTEMATIZACIÓN"
+author: "JESSICA_PANTA_PANTA"
+format: html
+editor: visual
+---
+
+## CARPETA SEMANA 06
+
+## SEMANA 06: COMO LIMPIAR UNA DATA PARA UTILIZAR UNA COLUMNA ESPECÍFICA
+
+```{r}
+#CARGAR UNA NUEVA DATA
+data<- read_csv("C:/Users/Lenovo/Downloads/s02_treat_artritis.csv")
+```
+
+```{r}
+#LIMPIAR DATA DE UNA FILA QUE CONTENGA FILAS CON NA
+data_limpia<-data[!is.na(data$CDAI),]
+```
